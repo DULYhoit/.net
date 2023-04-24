@@ -1,0 +1,15 @@
+C:\Education\.net\c#\ConsoleStudy\bin\Debug\net7.0\ConsoleStudy.exe
+C:\Education\.net\c#\ConsoleStudy\bin\Debug\net7.0\ConsoleStudy.deps.json
+C:\Education\.net\c#\ConsoleStudy\bin\Debug\net7.0\ConsoleStudy.runtimeconfig.json
+C:\Education\.net\c#\ConsoleStudy\bin\Debug\net7.0\ConsoleStudy.dll
+C:\Education\.net\c#\ConsoleStudy\bin\Debug\net7.0\ConsoleStudy.pdb
+C:\Education\.net\c#\ConsoleStudy\obj\Debug\net7.0\ConsoleStudy.csproj.AssemblyReference.cache
+C:\Education\.net\c#\ConsoleStudy\obj\Debug\net7.0\ConsoleStudy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Education\.net\c#\ConsoleStudy\obj\Debug\net7.0\ConsoleStudy.AssemblyInfoInputs.cache
+C:\Education\.net\c#\ConsoleStudy\obj\Debug\net7.0\ConsoleStudy.AssemblyInfo.cs
+C:\Education\.net\c#\ConsoleStudy\obj\Debug\net7.0\ConsoleStudy.csproj.CoreCompileInputs.cache
+C:\Education\.net\c#\ConsoleStudy\obj\Debug\net7.0\ConsoleStudy.dll
+C:\Education\.net\c#\ConsoleStudy\obj\Debug\net7.0\refint\ConsoleStudy.dll
+C:\Education\.net\c#\ConsoleStudy\obj\Debug\net7.0\ConsoleStudy.pdb
+C:\Education\.net\c#\ConsoleStudy\obj\Debug\net7.0\ConsoleStudy.genruntimeconfig.cache
+C:\Education\.net\c#\ConsoleStudy\obj\Debug\net7.0\ref\ConsoleStudy.dll
