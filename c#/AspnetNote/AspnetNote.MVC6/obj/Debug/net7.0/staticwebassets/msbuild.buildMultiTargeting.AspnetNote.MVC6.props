@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\AspnetNote.MVC6.props" />
+</Project>

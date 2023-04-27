@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewData["Title"] = "Register";
+}
+@model AspnetNote.MVC6.Models.User
+
+<h1>회원가입</h1>
+<form asp-controller="Account" asp-action="Register" class="form-horizontal" method="post">
+    <div class="form-group mt-3">
+        <label>사용자 ID</label>
+        <input type="text" class="form-control" asp-for="UserId" placeholder="사용자 id 입력"/>
+        <span class="text-danger" asp-validation-for="UserId"></span>
+    </div>
+    <div class="form-group mt-3">
+        <label>사용자 비밀번호</label>
+        <input type="text" class="form-control" asp-for="UserPassWord" placeholder="사용자 비밀번호 입력"/>
+        <span class="text-danger" asp-validation-for="UserPassWord"></span>
+    </div>
+    <div class="form-group mt-3">
+        <label>사용자 이름</label>
+        <input type="text" class="form-control" asp-for="UserName" placeholder="사용자 이름 입력"/>
+        <span class="text-danger" asp-validation-for="UserName"></span>
+    </div>
+    <div class=" form-group mt-3">
+        <button type="submit" class="btn btn-primary">회원가입</button>
+        <a class="btn btn-danger" href="#">취소</a>
+    </div>
+</form>
+

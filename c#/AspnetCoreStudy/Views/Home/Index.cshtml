@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Model 에서 View 로 데이터 바인딩</h1>
+    <div>
+        <ul>
+            @*<li>User 번호 : @Model.No</li>
+            <li>User 이름 : @Model.Name</li>*@
+            <li>User 번호 : @ViewBag.User.No</li>
+            <li>User 이름 : @ViewBag.User.Name</li>
+        </ul>
+        
+        
+    </div>
+    
+</div>

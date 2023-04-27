@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@{
+    var age = 10;
+    var name = "홍길동";
+}
+
+<h1>Razor Syntax 테스트</h1>
+<div>
+    <ul>
+        <li>나이는 @age</li>
+        <li>이름은 @name</li>
+        @if (age == 10)
+        {
+            <h1>@name 님의 나이가 10 입니다.</h1>
+        }
+        else
+        {
+            <h1>@name 님의 나이가 10이 아닙니다.</h1>
+        }
+        @for (int i = 0; i < 10; i++)
+        {
+            <h2>@(age+i)</h2>
+        }
+
+    </ul>
+</div>
+

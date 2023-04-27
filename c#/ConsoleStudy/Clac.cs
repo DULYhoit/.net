@@ -8,5 +8,6 @@ namespace ConsoleStudy
 {
     internal class Clac
     {
+
     }
 }
