@@ -22,13 +22,31 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Note" asp-action="Index">게시판</a>
+                        </li>
                     </ul>
+                   
+                    @if(Context.Session.GetInt32("USER_LOGIN_KEY") == null)
+                    {
                     <ul class="nav navbarnav navbar-right">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">로그인</a>
+                        </li>
+                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Register">회원가입</a>
                         </li>
-                    </ul>
+                        </ul>
+                    }
+                    else
+                    {
+                        <ul class="nav navbarnav navbar-right">
+                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Logout">로그아웃</a>
+                        </li>
+                        </ul>
+                    }
+
                 </div>
             </div>
         </nav>
